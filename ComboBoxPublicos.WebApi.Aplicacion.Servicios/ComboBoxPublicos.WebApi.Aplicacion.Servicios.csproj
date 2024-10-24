@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ComboBoxPublicos.WebApi.Aplicacion.Interfaces\ComboBoxPublicos.WebApi.Aplicacion.Interfaces.csproj" />
+    <ProjectReference Include="..\ComboBoxPublicos.WebApi.Dominio.Interfaces\ComboBoxPublicos.WebApi.Dominio.Interfaces.csproj" />
+    <ProjectReference Include="..\ComboBoxPublicos.WebApi.Transversal.Interfaces\ComboBoxPublicos.WebApi.Transversal.Interfaces.csproj" />
+    <ProjectReference Include="..\ComboBoxPublicos.WebApi.Transversal.Modelos\ComboBoxPublicos.WebApi.Transversal.Modelos.csproj" />
+  </ItemGroup>
+
+</Project>

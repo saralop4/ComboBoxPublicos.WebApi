@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="WatchDog.NET" Version="1.4.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ComboBoxPublicos.WebApi.Transversal.Interfaces\ComboBoxPublicos.WebApi.Transversal.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

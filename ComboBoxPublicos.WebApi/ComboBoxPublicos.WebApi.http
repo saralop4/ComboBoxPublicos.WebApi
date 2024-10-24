@@ -1,0 +1,6 @@
+@ComboBoxPublicos.WebApi_HostAddress = http://localhost:5287
+
+GET {{ComboBoxPublicos.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
